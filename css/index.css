@@ -1,0 +1,75 @@
+body {
+  background-color: pink;
+}
+
+a {
+  color: pink;
+}
+
+
+h1 {
+	display: inline;
+	position: relative;
+  text-align: center;
+	font: 200px Helvetica, Sans-Serif;
+	letter-spacing: -5px;
+	color: rgba(0,0,255,0.5);
+}
+
+h1:after {
+	content: ".txt";
+	position: absolute; left: 10px; top: 5px;
+	color: rgba(255,0,0,0.5);
+}
+
+h1:hover {
+  color: #ff0065;
+  fill: orange;
+  background-color: black;
+  text-shadow: 3px 2px red;
+}
+
+
+
+h2 {
+	display: inline;
+	position: relative;
+	font: 200px Helvetica, Sans-Serif;
+	letter-spacing: -5px;
+	color: rgba(0,0,255,0.5);
+}
+
+h2:after {
+	content: ".jpeg";
+	position: absolute; left: 10px; top: 5px;
+	color: rgba(255,0,0,0.5);
+}
+
+h2:hover {
+  color: #ff0065;
+  fill: orange;
+  background-color: black;
+  text-shadow: 3px 2px red;
+}
+
+
+h3 {
+	display: inline;
+	position: relative;
+	font: 200px Helvetica, Sans-Serif;
+	letter-spacing: -5px;
+	color: rgba(0,0,255,0.5);
+}
+
+h3:after {
+	content: ".pdf";
+	position: absolute; left: 10px; top: 5px;
+	color: rgba(255,0,0,0.5);
+}
+
+h3:hover {
+  color: #ff0065;
+  fill: orange;
+  background-color: black;
+  text-shadow: 3px 2px red;
+}
